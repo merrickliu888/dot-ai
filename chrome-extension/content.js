@@ -15,7 +15,16 @@ const getSearchQuery = () => {
 // Get search query from search bar
 const search_query = getSearchQuery();
 
+// Send search query to backend with search query and website data
+// fetch("")
+//     .then((response) => {})
+//     .catch((error) => {});
+
 // Inject dot-ai div into page
 const panel = createPanel(search_query);
-const div = document.getElementById("rcnt");
-div.appendChild(panel);
+const div = document.getElementById("rhs");
+if (div === null) {
+    document.getElementById("rcnt").appendChild(panel);
+} else {
+    div.prepend(panel);
+}
