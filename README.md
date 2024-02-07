@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/merrickliu888/dot-ai/blob/main/chrome-extension/extension/icons/dot.png" alt="Dot" width="75">  
-  <h1>Dot-AI<br> Enhancing Chrome with AI</h1>
+  <h1>Dot-AI<br> Enhancing Chrome with RAG and LLMs</h1>
   <br>
 </div>
 
