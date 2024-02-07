@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Dot",
     "version": "1.0.0",
-    "description": "Add RAG and NLP capabilities to your search engine",
+    "description": "Enhancing Chrome with RAG and LLMs.",
     "icons": {
         "16": "icons/dot.png",
         "32": "icons/dot.png",
