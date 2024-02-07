@@ -8,13 +8,9 @@ const context = get_context();
 console.log(context);
 
 // Inject dot-ai div into page
-const panel = create_panel(query, "Loading...");
-const div = document.getElementById("rhs");
-if (div === null) {
-    document.getElementById("rcnt").appendChild(panel);
-} else {
-    div.prepend(panel);
-}
+const panel = create_panel("Loading...");
+const div = document.getElementById("center_col");
+div.prepend(panel);
 
 get_answer("http://localhost:8000/predict", {
     query,
@@ -22,7 +18,6 @@ get_answer("http://localhost:8000/predict", {
 })
     .then((response) => {
         content = response.text;
-        console.log(content);
         document.getElementById("content").innerText = content;
     })
     .catch((error) => {
