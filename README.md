@@ -17,4 +17,4 @@
 ### Backend
 
 -   Used Cohere's LLM/API in the backend to synthesize information retrieved from Google search results.
--   Used FastAPI build a backend API.
+-   Used FastAPI to build a backend API.
