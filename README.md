@@ -6,6 +6,8 @@
 
 -   Developed a Chrome extension that integrates Retrieval-Augmented Generation and Large Language Models into the browser to enhance search.
 -   Utilizes Google's search engine as the retrieval system, and the search results as the content.
+-   Here is an example. The extension can be seen right below puppy, and to the left of the "About" section:
+[https://github.com/merrickliu888/dot-ai/blob/main/public/Example.png](https://github.com/merrickliu888/dot-ai/blob/main/public/Example.png)
 
 ## Implementation
 ### Frontend
